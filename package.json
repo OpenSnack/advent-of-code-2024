@@ -1,0 +1,12 @@
+{
+  "name": "advent-of-code-2024",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^22.10.1",
+    "jiti": "^2.4.1"
+  },
+  "scripts": {
+    "solve": "npx jiti solve.ts"
+  }
+}
