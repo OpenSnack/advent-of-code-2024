@@ -53,7 +53,7 @@ function aoc2024_5b(input: string[]) {
         if (checkUpdateCorrectOrder(rules, update)) {
             return 0;
         }
-        const sorted = [...update].sort((a, b) => {
+        const sorted = update.toSorted((a, b) => {
             if (rules[a][b]) return -1;
             if (rules[b][a]) return 1;
             return 0;
